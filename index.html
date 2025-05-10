@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Cưới Online - Trải Nghiệm Hiện Đại</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background: #fff4f4;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #d23669;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .video-card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .video-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background: #d23669;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DN WEDDING</h1>
+        <p>Công nghệ hiện đại - Trao gửi yêu thương</p>
+    </header>
+
+    <main>
+        <div class="video-grid">
+            <!-- Mẫu 1 -->
+            <div class="video-card">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                    <h3>Mẫu Cổ Điển</h3>
+                    <p>Thiết kế sang trọng với hoa văn truyền thống</p>
+                    <a href="LINK_GOOGLE_SHEET_1" class="btn">Đăng ký ngay</a>
+                </div>
+            </div>
+
+            <!-- Mẫu 2 -->
+            <div class="video-card">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                    <h3>Mẫu Hiện Đại</h3>
+                    <p>Phong cách tối giản, thanh lịch</p>
+                    <a href="LINK_GOOGLE_SHEET_2" class="btn">Đăng ký ngay</a>
+                </div>
+            </div>
+
+            <!-- Thêm các mẫu khác tại đây -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Liên hệ: email@example.com | Hotline: 0123.456.789</p>
+    </footer>
+</body>
+</html>
