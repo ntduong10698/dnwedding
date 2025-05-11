@@ -1,0 +1,39 @@
+.session-name {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #001845;
+    text-align: center;
+    font-family: __Quicksand_22c7c5, __Quicksand_Fallback_22c7c5;
+    font-style: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.template-wedding {
+    border: 2px solid #eee;
+    border-radius: 10px;
+    max-width: 325px;
+    min-width: 225px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.template-wedding blockquote{
+    padding: unset;
+    font-size: unset;
+    border-left: unset;
+    max-height: 705px;
+    margin: 10px auto;
+}
+
+.template-name h3{
+    font-size: 2.2rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: #001845;
+    text-align: center;
+    font-family: __Quicksand_22c7c5, __Quicksand_Fallback_22c7c5;
+    font-style: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
