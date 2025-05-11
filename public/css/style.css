@@ -46,3 +46,30 @@
 .fLkiLI {
     padding: 0 0 0.8rem 0 !important;
 }
+
+.price {
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+}
+
+.price h3{
+    display: inline-block;
+    margin-top: unset;
+    margin-bottom: 10px;
+}
+
+.price .old-price{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration-line: line-through;
+    justify-content: left;
+}
+
+.price .new-price{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(1, 105, 244);
+    justify-content: right;
+}
